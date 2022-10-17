@@ -1,0 +1,310 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/content"
+    }
+  ],
+  "frontMatter.framework.startCommand": "hugo server -D",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "datetime"
+        },
+        {
+          "title": "subtitle",
+          "name": "subtitle",
+          "type": "string"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "authorLink",
+          "name": "authorLink",
+          "type": "string"
+        },
+        {
+          "title": "hiddenFromHomePage",
+          "name": "hiddenFromHomePage",
+          "type": "datetime"
+        },
+        {
+          "title": "hiddenFromSearch",
+          "name": "hiddenFromSearch",
+          "type": "datetime"
+        },
+        {
+          "title": "resources",
+          "name": "resources",
+          "type": "block",
+          "fields": [
+            {
+              "title": "0",
+              "name": "0",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "name",
+                  "name": "name",
+                  "type": "string"
+                },
+                {
+                  "title": "src",
+                  "name": "src",
+                  "type": "string"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "datetime"
+        },
+        {
+          "title": "sidebar",
+          "name": "sidebar",
+          "type": "datetime"
+        },
+        {
+          "title": "toc",
+          "name": "toc",
+          "type": "datetime"
+        },
+        {
+          "title": "math",
+          "name": "math",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "enable",
+              "name": "enable",
+              "type": "datetime"
+            }
+          ]
+        },
+        {
+          "title": "lightgallery",
+          "name": "lightgallery",
+          "type": "datetime"
+        },
+        {
+          "title": "license",
+          "name": "license",
+          "type": "string"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "avatar",
+          "name": "avatar",
+          "type": "string"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "link",
+              "name": "link",
+              "type": "string"
+            },
+            {
+              "title": "duration",
+              "name": "duration",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "title": "playlist",
+          "name": "playlist",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "item",
+              "name": "item",
+              "type": "block",
+              "fields": [
+                {
+                  "title": "0",
+                  "name": "0",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "link",
+                      "name": "link",
+                      "type": "string"
+                    },
+                    {
+                      "title": "duration",
+                      "name": "duration",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "1",
+                  "name": "1",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "link",
+                      "name": "link",
+                      "type": "string"
+                    },
+                    {
+                      "title": "duration",
+                      "name": "duration",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "name": "2",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "link",
+                      "name": "link",
+                      "type": "string"
+                    },
+                    {
+                      "title": "duration",
+                      "name": "duration",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "3",
+                  "name": "3",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "link",
+                      "name": "link",
+                      "type": "string"
+                    },
+                    {
+                      "title": "duration",
+                      "name": "duration",
+                      "type": "string"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.templates.enabled": true,
+  "frontMatter.taxonomy.tags": [
+    "Markdown"
+  ]
+}

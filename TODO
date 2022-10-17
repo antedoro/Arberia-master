@@ -1,0 +1,43 @@
+Todo:
+  Gestione immagini: @critical
+    ☐ controllare tutte le immagini
+  ☐ Search engine @low 85% vedi tema stack oppure https://www.sametbh.com/docs/64-programming/static-site-generators/hugo/implementing-search-hugo/
+  ☐ Contact Form (usare implementazione php tema Zen https://github.com/frjo/hugo-theme-zen  )
+  ☐ Sistemare logo.html @started(22-07-17 22:33) 30%
+  ☐ Cookie law
+  ☐ Inserire altri shortcode
+  ☐ Sistemare completed-mark.html
+  ☐ Render del summary <!--more-->
+  ☐ Inserire altri shortcode
+  
+Bug:
+  ☐ Pagina ricerca: quando il risultato della ricerca è lungo il testo fa overflow nel footer
+  ☐ Pagina /posts sistemare titolo e sottotitolo
+
+Archive:
+  ✘ Sistemare completed-mark.html @cancelled(22-07-23 22:42) @project(Todo)
+  ✔ Shortcode {{< learning-path >}} @done(22-07-23 22:42) @project(Todo)
+  ✔ BackToTop button /components/backtotop.html @done(22-07-24 11:29) @project(Todo)
+  ✔ Shortcode {{< learning-path >}} @done(22-07-24 11:17) @project(Todo)
+  ✔ Shortcode alert e alert-dark @done(22-07-21 22:01) @project(Todo)
+  ✔ Tags and categories 100% @started(22-07-18 23:57) @done(22-07-21 14:22) @lasted(2d14h25m32s) @project(Todo)
+  ✔ Favicon @started(22-07-17 22:33) 50% @done(22-07-20 17:58) @lasted(2d19h25m57s) @project(Todo)
+  ✔ Sistemare component/tag.html @started(22-07-16 23:58) @done(22-07-20 17:58) @lasted(3d18h9s) @project(Todo)
+  ✔ Sistemare mailchimp "Python Tricks" sui post @done(22-07-18 23:56) @project(Todo)
+  ✔ Sistemare share-button.html @done(22-07-18 19:25) @project(Todo)
+  ✔ Loading css and js @started(22-07-12 15:49) @done(22-07-16 23:58) @lasted(4d8h9m44s) @project(Todo)
+  ✔ Controllare schema.org di tutte le schede ad esempio author @done(22-07-16 15:27) @project(Todo)
+  ✔ Sistemare sidebar.html @done(22-07-13 18:20) @project(Todo)
+  ✔ .Params.paginate . params.summaryLenght @done(22-07-13 18:19) @project(Todo)
+  ✔ Controllare {{summary}} in lista.html @done(22-07-13 18:19) @project(Todo)
+  ✔ Landing page senza navbar @done(22-07-10 00:29) @project(Todo)
+  ✔ Single.html in base al type (standard-view(sidebar-nosidebar) - courses - video - landingpage) @done(22-07-10 00:29) @project(Todo)
+  ✔ Sidebar @done(22-07-12 13:17) @project(Todo)
+  ✔ YouTube channel ID @done(22-07-12 14:12) @project(Todo)
+  ✔ Post recenti nella sidebar @done(22-07-12 13:17) @project(Todo)
+  ✔ lazyload @done(22-05-18 22:46) @project(Todo.Gestione immagini)
+  ✔ Portfolio card page @started(22-05-15 10:01) %50 @done(22-05-18 15:43) @lasted(3d5h42m29s) @project(Todo)
+  ✔ Post with sidebar @done(22-05-11 21:36) @project(Todo)
+  ✔ Post without sidebar @done(22-05-11 21:36) @project(Todo)
+  ✔ Video Grid view @done(22-05-15 09:03) @project(Todo)
+  ✔ Video List View @started(22-05-11 21:36) @done(22-05-11 21:36) @lasted(40s) @project(Todo)

@@ -1,0 +1,64 @@
+<style>
+	.navbar {
+		max-height: 76px;
+	}
+
+	.navbar-dark .navbar-nav .dropdown-menu {
+		padding: 0;
+		border-top: 0;
+		margin-top: 0
+	}
+
+	.navbar-brand {
+		color: #fff !important;
+		font-size: 22px !important;
+		font-weight: bold !important;
+	}
+
+	.navbar-brand small {
+		display: block;
+		font-size: 12px;
+		white-space: normal;
+		position: absolute;
+	}
+
+		{
+			{
+			/*  @media (max-width: 575.98px) {
+		.navbar-brand small {
+		  display: none;
+		}
+	  }  */
+		}
+	}
+
+	.brand-logo {
+		overflow: visible;
+		/////
+		border: 2px solid #ececec;
+		border-radius: 50%;
+		padding: 2px;
+		max-width: 92px;
+		max-height: 92px;
+		// Use your own values for anything below this line.
+		left: 12px;
+		top: 12px;
+		height: 72px;
+		width: 72px;
+	}
+	
+</style>
+
+
+{{/*  Logo + site name  */}}
+{{ $Title := .Site.Title }}
+{{ with site.Params }}
+{{ if .siteBrand }}
+<a class="navbar-brand" href="{{ print `/` | relLangURL }}">
+	<img src="{{ .BrandLogo | relURL }}" class="brand-logo shadow-sm" alt="{{ $Title }}" loading="lazy">
+	{{ .BrandName }}
+	{{/*  <small>Another hugo theme!</small>  */}}
+</a>
+
+{{ end }}
+{{ end }}
