@@ -1,95 +1,22 @@
-{{/*  Logo + site name  */}}
-{{ $Title := .Site.Title }}
-{{ with site.Params }}
-{{ if .siteBrand }}
-<a class="navbar-brand" href="{{ print `/` | relLangURL }}">
-	<img src="{{ .BrandLogo | relURL }}" class="d-inline-block align-top" alt="{{ $Title }}"
-		width="{{ .siteBrandWidth }}" height="{{ .siteBrandHeight }}">
-</a>
-{{ else }}
-<a class="navbar-brand" style="color:{{.siteBrandFontColor}}" href="{{ print `/` | relLangURL }}">{{ $Title }}</a>
-<a class="navbar-brand" style="color: #ccc" href="">{{ .Site.Title }}</a>
-{{ end }}
-
-{{/*  Menu utente copiare da qua  */}}
-{{/*  <div class="nav-item">
-	<a class="ml-2 ml-lg-0 btn text-light p-0 my-2" href="#" role="button"
-		data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="My Account">
-		<div class="media">
-			<img class="align-self-center rounded rounded-circle mr-1 flex-shrink-0"
-				style="width: 45px; height: 45px;"
-				src="https://www.gravatar.com/avatar/ca3d43c8318f6208937b1f7325e54aba?s=500&amp;d=mp"
-				alt="User avatar" width="500" height="500">
-
-		</div>
-	</a>
-</div>  */}}
-
-
-
-
-
 <style>
-	.nav-brand {
-		position: absolute;
-		margin-left: 5px;
-		margin-top: 20px;
-		padding: 0;
-		vertical-align: left;
-		box-sizing: content-box;
-		transform: scale(1.);
-		transform-origin: left;
-		overflow: hidden;
-	}
-
-	.brand-logo {
-		border: 3px solid white;
-		border-radius: 50%;
-		padding: 1px;
-		max-width: 72px;
-		max-height: 72px;
-	}
-
-	.brand {
-		display: inline-block;
-		max-width: 215px;
-		text-align: left;
-		vertical-align: middle;
-		color: white;
-	}
-
-	.brand-name {
-		font-size: 1.25rem;
-		font-weight: 700;
-		line-height: 1.2;
-	}
-
-	.brand-tagline {
-		font-size: .75rem;
-		font-weight: 400;
-		line-height: 1.2;
+    .navbar-brand {
+		color: #fff !important;
+		font-weight: bold !important;
 	}
 </style>
 
+{{/*  Logo + site name  */}}
+{{ with site.Params }}
+{{ if .siteBrand }}
+<a class="navbar-brand mr-0 mr-md-2" href="{{ print `/` | relLangURL }}">
+    <img src="{{ .BrandLogo | relURL }}" 
+    width="36" 
+    height="36" 
+    class="d-inline-block align-top"
+    loading="lazy" 
+    alt="">
+    {{ .BrandName }}
+</a>
 
-{{/*  <a class="nav-item float-left" href="{{ .Site.relURL }}">
-<img class="brand-logo shadow-lg d-inline-block align-top" width="" height="72" src="{{ .logo | relURL }}" alt="logo">
-<div class="brand ml-2 mt-1" style="margin-right: 10px">
-	<div class="brand-name d-inline-block align-top">Arberia Theme</div>
-	<div class="brand-tagline">TECH INSIDE!</div>
-</div>
-</a> */}}
-{{end}}
-
-{{/*  <div class="nav-link">
-	<p class="text-muted" style="">
-		<img class="brand-logo float-left shadow-lg"
-			title="{{ .Title | markdownify }}"
-src="/img/kodra-logo.jpg"
-srcset="/img/kodra-logo.jpg 250w,
-/img/kodra-logo.jpg 450w,
-/img/kodra-logo.jpg 900w" sizes="25vw"
-alt="{{- .Title  | markdownify -}}" width="72" height="72">
-<div class="brand-name text-white"> Testo qualsiasi</div>
-</p>
-</div> */}}
+{{ end }}
+{{ end }}

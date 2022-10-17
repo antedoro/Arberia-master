@@ -2,16 +2,15 @@
 
 # Brand Bar (inside header)
 siteBrand = true
-BrandLogo = "img/arberia-theme-logo.svg"
-# BrandLogo = ""
-logo = "img/kodra-logo.jpg"
-siteBrandWidth = 165
-siteBrandHeight = 40
+BrandName = "Arberia Theme"
+BrandLogo = "img/A.webp"
+siteBrandWidth = 36
+siteBrandHeight = 36
 siteBrandFill = "#fff"
 # Unit: em
-siteBrandFontSize = 1
-siteBrandFont = "Arial"
-siteBrandFontColor = "white"
+# siteBrandFontSize = 1
+# siteBrandFont = "Arial"
+# siteBrandFontColor = "white"
 
 tagline = "Responsive Hugo Theme"
 description = "Arberia Theme for Hugo Static Site Generator. Insert here general site description"
