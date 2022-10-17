@@ -3,18 +3,17 @@ Todo:
     ☐ controllare tutte le immagini
   ☐ Search engine @low 85% vedi tema stack oppure https://www.sametbh.com/docs/64-programming/static-site-generators/hugo/implementing-search-hugo/
   ☐ Contact Form (usare implementazione php tema Zen https://github.com/frjo/hugo-theme-zen  )
-  ☐ Sistemare logo.html @started(22-07-17 22:33) 30%
   ☐ Cookie law
   ☐ Inserire altri shortcode
   ☐ Sistemare completed-mark.html
   ☐ Render del summary <!--more-->
-  ☐ Inserire altri shortcode
   
 Bug:
   ☐ Pagina ricerca: quando il risultato della ricerca è lungo il testo fa overflow nel footer
   ☐ Pagina /posts sistemare titolo e sottotitolo
 
 Archive:
+  ✔ Sistemare logo.html @started(22-07-17 22:33) 30% @done(22-10-17 19:07) @lasted(13w20h34m10s) @project(Todo)
   ✘ Sistemare completed-mark.html @cancelled(22-07-23 22:42) @project(Todo)
   ✔ Shortcode {{< learning-path >}} @done(22-07-23 22:42) @project(Todo)
   ✔ BackToTop button /components/backtotop.html @done(22-07-24 11:29) @project(Todo)
