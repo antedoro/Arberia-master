@@ -10,8 +10,8 @@
 {{ if .siteBrand }}
 <a class="navbar-brand mr-0 mr-md-2" href="{{ print `/` | relLangURL }}">
     <img src="{{ .BrandLogo | relURL }}" 
-    width="36" 
-    height="36" 
+    width="{{ .siteBrandWidth }}" 
+    height="{{ .siteBrandHeight }}" 
     class="d-inline-block align-top"
     loading="lazy" 
     alt="">

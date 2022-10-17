@@ -3,10 +3,10 @@
 # Brand Bar (inside header)
 siteBrand = true
 BrandName = "Arberia Theme"
-BrandLogo = "img/A.webp"
-siteBrandWidth = 36
-siteBrandHeight = 36
-siteBrandFill = "#fff"
+BrandLogo = "img/arberia-logo.webp"
+siteBrandWidth = 42
+siteBrandHeight = 42
+# siteBrandFill = "#fff"
 # Unit: em
 # siteBrandFontSize = 1
 # siteBrandFont = "Arial"
